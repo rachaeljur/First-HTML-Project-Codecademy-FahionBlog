@@ -1,0 +1,27 @@
+.header {
+    background-color: CornflowerBlue;
+      text-align: center;
+      }
+/* .header class selector in line 10 of index.html.The style.css calls.header class and changes the background color to CornflowerBlue and center aligns the text */
+p.about-me{
+  font-size: 20px;
+  opacity: 0.5;
+}
+/* Within the p.element the.about-me class selector has been created in line 10 of the index.html file. The .p.about-me class selector in the css.file is set to increase the font to 20px and help make the image and paragraph appear 0.5 which, is 50% opacity*/
+
+.title {
+  font-weight:bold
+}
+/* The .title class selector is named in index html (lines 17 and 25). In the style.css file .title class selector is given the property of font-weight and a value of bold. This makes the titles bold.*/
+
+h1 {
+  color: azure;
+} 
+/* In index.html, heading 1 h1 is in line 12.In the style.css file, the h1 type selector is attributed a color property with the value of azure. This will make the h1 font color azure.*/
+
+body {
+font-family: Georgia;
+background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+/* In index.html, the body elements is inbetween line9-line34.In the style.css file, the body element is given a Georgia style font. A whole body section with other elements nested within has been given a default font of Georgia.
+Also body has been given a background-image property with a url=("link")*/
+
